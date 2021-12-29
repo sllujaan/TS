@@ -96,5 +96,3 @@ catch (err) {
 ```
 
 ## [Click Here to See Live Demo](https://sllujaan.github.io/TS/)🚀
-
-## <a href="https://sllujaan.github.io/TS/" target="_blank">Click Here to See Live Demo🚀</a>
