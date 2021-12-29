@@ -2,6 +2,10 @@
 <p align="center">
   <img src="https://user-images.githubusercontent.com/31973579/147652876-cb2c440a-0216-40b1-95fa-76eee0c4ca7a.png" alt="Sublime's custom image"/>
 </p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/31973579/147653253-9f9c79d0-1948-4a13-9261-faa9a8750889.png" alt="Sublime's custom image"/>
+</p>
+
 
 # Installation
 
