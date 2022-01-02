@@ -19,7 +19,7 @@
 - Smooth Swipe.
 - Easy to debug if got any errors when initializing the slider. (Added Validation)
 - Good looking UI.
-- More features can be added on demand.
+- More features can be added on demand. (Like Full-Screen Mode)
 
 # Installation
 
