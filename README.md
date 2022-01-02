@@ -1,4 +1,5 @@
 # TheSlider
+
 <p align="center">
   <img src="https://user-images.githubusercontent.com/31973579/147652876-cb2c440a-0216-40b1-95fa-76eee0c4ca7a.png" alt="Sublime's custom image"/>
 </p>
@@ -6,15 +7,30 @@
   <img src="https://user-images.githubusercontent.com/31973579/147653253-9f9c79d0-1948-4a13-9261-faa9a8750889.png" alt="Sublime's custom image"/>
 </p>
 
+# Features
+
+- Fully Responsive.
+- Touch Support.
+- Supports large number of images. Tested with 50,000 images.
+- Redirection when clicked on images.
+- Fast performance. Minimum use of javascript & event handlers
+- Shows current and total number of images.
+- Option of render maximum number of images.
+- Smooth Swipe.
+- Easy to debug if got any errors when initializing the slider. (Added Validation)
+- Good looking UI.
+- More features can be added on demand.
 
 # Installation
 
 **For Commonjs & ESModules:**
 
 ```js
-import TheSlider from "TheSliderjs";
+// in commonjs & ESModules
+import TheSlider from "TheSlider.js";
 // or
-const TheSlider = require("TheSliderjs");
+// in commonjs
+const TheSlider = require("TheSlider.js");
 ```
 
 **In Plain Javascript:**
@@ -23,7 +39,7 @@ const TheSlider = require("TheSliderjs");
 <!-- in html file -->
 <head>
   ...
-  <script src="TheSliderjs"></script>
+  <script src="TheSlider.js"></script>
   ...
 </head>
 <body>
@@ -36,7 +52,31 @@ const TheSlider = require("TheSliderjs");
 
 # Use
 
+```html
+<!-- in html file -->
+<head>
+  ...
+  <style>
+    .container {
+      background-color: black;
+      width: 100%;
+      height: 400px;
+      border-radius: 20px;
+      overflow: hidden;
+      max-width: 750px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container"></div>
+  ...
+</body>
+```
+
 ```js
+// in script tag or index.js file
+const targetElment = document.querySelectorAll(".container")[0];
+
 try {
   const slider = new TheSlider();
   slider
@@ -96,3 +136,9 @@ catch (err) {
 ```
 
 ## [Click Here to See Live Demo](https://sllujaan.github.io/TS/)🚀
+
+<br/>
+
+# About
+
+Salman Altaf (sllujaan44@gmail.com).
