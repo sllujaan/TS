@@ -27,10 +27,10 @@
 
 ```js
 // in commonjs & ESModules
-import TheSlider from "TheSlider.js";
+import TheSlider from "./TheSlider.js";
 // or
 // in commonjs
-const TheSlider = require("TheSlider.js");
+const TheSlider = require("./TheSlider.js");
 ```
 
 **In Plain Javascript:**
@@ -39,7 +39,7 @@ const TheSlider = require("TheSlider.js");
 <!-- in html file -->
 <head>
   ...
-  <script src="TheSlider.js"></script>
+  <script src="./TheSlider.js"></script>
   ...
 </head>
 <body>
